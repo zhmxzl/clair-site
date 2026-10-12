@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Политика конфиденциальности — Clair</title>
+    <meta name="description" content="Какие данные обрабатывает Clair, где они хранятся и как их удалить." />
+    <link rel="alternate" hreflang="en" href="https://zhmxzl.github.io/clair-site/en/privacy.html" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=Onest:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="wrap">
+        <a class="brand" href="./"><img src="icon.png" alt="" />Clair</a>
+        <nav>
+          <a class="optional" href="./#features">Возможности</a>
+          <a href="./#download">Скачать</a>
+          <a href="en/privacy.html" lang="en" hreflang="en">EN</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <article class="doc">
+        <h1>Политика конфиденциальности</h1>
+        <p class="meta">Действует с 12 октября 2026 года</p>
+
+        <div class="summary">
+          <h2>Коротко</h2>
+          <ul>
+            <li>У Clair нет своих серверов. Разработчик не получает и не видит ваши заметки, задачи и ключи.</li>
+            <li>Нет рекламы, аналитики, трекеров и сбора статистики использования.</li>
+            <li>Данные хранятся на вашем устройстве и — если вы включите синхронизацию — в вашем Google Диске.</li>
+          </ul>
+        </div>
+
+        <ul class="toc">
+          <li><a href="#storage">Где хранятся данные</a></li>
+          <li><a href="#google">Данные Google</a></li>
+          <li><a href="#ai">ИИ-функции</a></li>
+          <li><a href="#delete">Как удалить данные</a></li>
+          <li><a href="#children">Дети</a></li>
+          <li><a href="#changes">Изменения и связь</a></li>
+        </ul>
+
+        <p>
+          Clair — приложение для заметок и задач для Mac и Android. Эта политика объясняет, какие данные обрабатывает Clair, где они
+          хранятся и как их удалить.
+        </p>
+
+        <h2 id="storage">Где хранятся данные</h2>
+        <p>
+          <strong>На устройстве.</strong> Заметки, задачи, списки, папки, вложения и история разговоров с ассистентом хранятся локально в
+          хранилище приложения. Ключ ИИ-провайдера хранится в защищённом хранилище системы — связке ключей macOS или Android Keystore.
+        </p>
+        <p>
+          <strong>В вашем Google Диске (по желанию).</strong> Если вы войдёте в Google в настройках синхронизации, Clair сохраняет копию
+          данных в скрытой папке приложения в вашем Google Диске, чтобы они были на всех ваших устройствах. Эта папка принадлежит вашему
+          аккаунту; разработчик к ней доступа не имеет.
+        </p>
+
+        <h2 id="google">Данные Google</h2>
+        <p>
+          Clair запрашивает единственное разрешение — <code>drive.appdata</code>: доступ только к собственной скрытой папке приложения в
+          вашем Google Диске. Clair не видит другие ваши файлы, почту, контакты и любые иные данные Google.
+        </p>
+        <p>
+          Данные, полученные через API Google, используются только для хранения и синхронизации ваших собственных данных Clair между
+          вашими устройствами. Они не передаются третьим лицам, не используются для рекламы и не используются для обучения моделей ИИ.
+          Использование и передача Clair информации, полученной от API Google, соответствуют
+          <a href="https://developers.google.com/terms/api-services-user-data-policy">Политике в отношении пользовательских данных сервисов API Google</a>,
+          включая требования ограниченного использования (Limited Use).
+        </p>
+
+        <h2 id="ai">ИИ-функции</h2>
+        <p>
+          ИИ-функции (ассистент, правка текста, план дня, поиск по смыслу) необязательны и работают только с ключом ИИ-провайдера, который
+          вы вводите сами (например, OpenRouter или ваш собственный сервер). Когда вы пользуетесь ими, текст запроса и нужные для ответа
+          фрагменты ваших заметок и задач отправляются напрямую с вашего устройства выбранному вами провайдеру — не через разработчика.
+          Обработку этих данных провайдером регулирует его собственная политика конфиденциальности.
+        </p>
+        <p>
+          Поиск по смыслу включается отдельно и с предупреждением: при включении текст каждой заметки отправляется провайдеру для
+          вычисления векторов поиска.
+        </p>
+
+        <h2 id="delete">Как удалить данные</h2>
+        <ul>
+          <li>Отдельные заметки и задачи — удалите в приложении и очистите корзину.</li>
+          <li>Данные на устройстве — удалите приложение.</li>
+          <li>
+            Копию в Google Диске — в Google Диске откройте «Настройки → Управление приложениями», найдите Clair и выберите «Удалить скрытые
+            данные приложения». Доступ Clair к аккаунту можно отозвать на странице
+            <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+          </li>
+        </ul>
+
+        <h2 id="children">Дети</h2>
+        <p>Clair не предназначен специально для детей и сознательно не собирает данные детей.</p>
+
+        <h2 id="changes">Изменения и связь</h2>
+        <p>Если политика изменится, новая версия будет опубликована на этой странице с новой датой.</p>
+        <p>Вопросы о конфиденциальности: <a href="mailto:clair.apps@protonmail.com">clair.apps@protonmail.com</a>.</p>
+      </article>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <span>© 2026 Clair</span>
+        <nav>
+          <a href="./">Главная</a>
+          <a href="https://github.com/zhmxzl/clair-site/releases">Все версии</a>
+          <a href="mailto:clair.apps@protonmail.com">Связаться</a>
+          <a href="en/privacy.html" lang="en" hreflang="en">English</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
