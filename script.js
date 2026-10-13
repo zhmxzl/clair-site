@@ -1,6 +1,10 @@
 // Кнопки «Скачать»: без скрипта ведут на страницу последнего выпуска, со
 // скриптом — прямо на файл (APK / DMG) с размером и номером версии.
 // Телефон на Android — первой показываем кнопку APK.
+// Сведения о выпуске — из latest.json рядом (кладёт scripts/release.sh в
+// репозитории приложения), а не из API GitHub: у того лимит 60 запросов в час.
+const MANIFEST = new URL("latest.json", document.currentScript?.src || location.href);
+
 (async () => {
   const buttons = [...document.querySelectorAll("[data-asset]")];
   if (/Android/i.test(navigator.userAgent)) {
@@ -10,9 +14,7 @@
   }
 
   try {
-    const res = await fetch("https://api.github.com/repos/zhmxzl/clair-site/releases/latest", {
-      headers: { Accept: "application/vnd.github+json" },
-    });
+    const res = await fetch(MANIFEST, { cache: "no-cache" });
     if (!res.ok) return;
     const release = await res.json();
     const version = String(release.tag_name || "").replace(/^v/i, "");
