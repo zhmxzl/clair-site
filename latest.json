@@ -1,22 +1,22 @@
 {
-  "tag_name": "v1.0.5",
-  "html_url": "https://github.com/zhmxzl/clair-site/releases/tag/v1.0.5",
-  "body": "Clair 1.0.5",
+  "tag_name": "v1.0.6",
+  "html_url": "https://github.com/zhmxzl/clair-site/releases/tag/v1.0.6",
+  "body": "**Что нового**\n\n- **Спорные правки при синхронизации** — отдельное окно с понятным выбором: обе версии рядом, у каждого варианта видно, как будет выглядеть заметка. До «Готово» выбор можно поменять — ни одна версия не потеряется.\n- **Новая панель форматирования на телефоне** — одна строка над клавиатурой, только пока печатаете; «Aa» открывает все инструменты. Системное меню выделения её больше не закрывает.\n- **Число слов** в строке над заметкой (и в выделенном).\n- **ИИ правит и заголовок заметки** — выделите часть заголовка и нажмите ✦.\n- **Цвет акцента слегка подкрашивает фон** приложения.\n- **Группы «Сегодня», «Вчера»** в списках стали заметнее.\n- **Подсказки у всех настроек** — что именно меняет каждый параметр.\n\n**Исправлено**\n\n- Списки в заметках: пустая строка над списком теперь стирается, после удаления пункта нумерация не начинается заново.\n- Новый разговор с ассистентом мог записаться в предыдущий.\n- Счётчик индексации больше не показывает «14 из 13».",
   "assets": [
     {
-      "name": "Clair-1.0.5-arm64.dmg",
-      "size": 122736517,
-      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.5/Clair-1.0.5-arm64.dmg"
+      "name": "Clair-1.0.6-arm64.dmg",
+      "size": 122654848,
+      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.6/Clair-1.0.6-arm64.dmg"
     },
     {
-      "name": "Clair-1.0.5.apk",
-      "size": 5242193,
-      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.5/Clair-1.0.5.apk"
+      "name": "Clair-1.0.6.apk",
+      "size": 5247617,
+      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.6/Clair-1.0.6.apk"
     },
     {
       "name": "SHA256SUMS.txt",
       "size": 170,
-      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.5/SHA256SUMS.txt"
+      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.6/SHA256SUMS.txt"
     }
   ]
 }
