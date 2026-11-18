@@ -1,22 +1,22 @@
 {
-  "tag_name": "v1.0.12",
-  "html_url": "https://github.com/zhmxzl/clair-site/releases/tag/v1.0.12",
-  "body": "**Исправлено**\n\n- Ширину списка заметок снова можно менять, потянув за край между списком и заметкой (в 1.0.11 не получалось).\n- Заметка открывается плавно: список сразу встаёт на место, а заметка въезжает сбоку без рывков.",
+  "tag_name": "v1.0.13",
+  "html_url": "https://github.com/zhmxzl/clair-site/releases/tag/v1.0.13",
+  "body": "**Изменено**\n\n- Приложение открывается быстрее: подсветка кода, импорт, резервная копия и настройки загружаются, только когда нужны.\n- Длинные списки заметок и задач (сотни и тысячи записей) не тормозят при открытии заметки и скрытии панели.\n- На телефоне Clair всегда вертикальный — в альбомном режиме раскладка не помещалась по высоте. Планшеты поворачиваются как раньше.\n\n**Исправлено**\n\n- На телефоне после поворота экрана заметка могла сжаться в узкую полосу.",
   "assets": [
     {
-      "name": "Clair-1.0.12-arm64.dmg",
-      "size": 122761138,
-      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.12/Clair-1.0.12-arm64.dmg"
+      "name": "Clair-1.0.13-arm64.dmg",
+      "size": 122766651,
+      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.13/Clair-1.0.13-arm64.dmg"
     },
     {
-      "name": "Clair-1.0.12.apk",
-      "size": 5347689,
-      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.12/Clair-1.0.12.apk"
+      "name": "Clair-1.0.13.apk",
+      "size": 5359063,
+      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.13/Clair-1.0.13.apk"
     },
     {
       "name": "SHA256SUMS.txt",
       "size": 172,
-      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.12/SHA256SUMS.txt"
+      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.13/SHA256SUMS.txt"
     }
   ]
 }
