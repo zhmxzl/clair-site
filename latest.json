@@ -1,22 +1,22 @@
 {
-  "tag_name": "v1.0.13",
-  "html_url": "https://github.com/zhmxzl/clair-site/releases/tag/v1.0.13",
-  "body": "**Изменено**\n\n- Приложение открывается быстрее: подсветка кода, импорт, резервная копия и настройки загружаются, только когда нужны.\n- Длинные списки заметок и задач (сотни и тысячи записей) не тормозят при открытии заметки и скрытии панели.\n- На телефоне Clair всегда вертикальный — в альбомном режиме раскладка не помещалась по высоте. Планшеты поворачиваются как раньше.\n\n**Исправлено**\n\n- На телефоне после поворота экрана заметка могла сжаться в узкую полосу.",
+  "tag_name": "v1.0.14",
+  "html_url": "https://github.com/zhmxzl/clair-site/releases/tag/v1.0.14",
+  "body": "**Новое**\n\n- Новая иконка — «звёздная карта»: буква C из звёзд на орбите.\n- Пастельные фоны «Мята», «Персик», «Небо» и «Пудра» — мягкие, как «Мягкий».\n- Задачи фразой понимают «на следующей неделе», «в следующем месяце» и «в следующую пятницу».\n\n**Изменено**\n\n- В светлой теме с цветным фоном панели, карточки и меню окрашиваются в цвет фона, а не остаются почти белыми.\n\n**Исправлено**\n\n- Предлог перед сроком больше не остаётся в названии задачи: «Отчёт до 25 ноября» → «Отчёт», срок 25 ноября.\n- Кнопки таблицы над таблицей больше не закрывают текст выше.\n- Mac: отдельное окно заметки со «Стеклом» в светлой теме больше не серое.",
   "assets": [
     {
-      "name": "Clair-1.0.13-arm64.dmg",
-      "size": 122766651,
-      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.13/Clair-1.0.13-arm64.dmg"
+      "name": "Clair-1.0.14-arm64.dmg",
+      "size": 122796293,
+      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.14/Clair-1.0.14-arm64.dmg"
     },
     {
-      "name": "Clair-1.0.13.apk",
-      "size": 5359063,
-      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.13/Clair-1.0.13.apk"
+      "name": "Clair-1.0.14.apk",
+      "size": 5371931,
+      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.14/Clair-1.0.14.apk"
     },
     {
       "name": "SHA256SUMS.txt",
       "size": 172,
-      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.13/SHA256SUMS.txt"
+      "browser_download_url": "https://github.com/zhmxzl/clair-site/releases/download/v1.0.14/SHA256SUMS.txt"
     }
   ]
 }
