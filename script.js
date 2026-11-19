@@ -32,3 +32,11 @@ const MANIFEST = new URL("latest.json", document.currentScript?.src || location.
     // нет сети или GitHub недоступен — остаются ссылки на страницу выпуска
   }
 })();
+
+// Шапка над ночным небом — ночная; когда первый экран ушёл вверх, она становится как страница.
+(() => {
+  const top = document.querySelector(".home .top"), hero = document.querySelector(".hero .inner");   // текст первого экрана, не скриншот под ним
+  if (!top || !hero || !("IntersectionObserver" in window)) return;
+  new IntersectionObserver(([e]) => top.classList.toggle("scrolled", !e.isIntersecting), { rootMargin: "-64px 0px 0px 0px" })
+    .observe(hero);
+})();
